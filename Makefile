@@ -21,16 +21,16 @@ Yet another SIP003 plugin for shadowsocks, based on v2ray.
 endef
 
 ifeq ($(ARCH),i386)
-	BIN_ARCH:=x86
+	BIN_ARCH:=386
 endif
 ifeq ($(ARCH),x86_64)
-	BIN_ARCH:=x86_64
+	BIN_ARCH:=amd64
 endif
 ifeq ($(ARCH),arm)
 	BIN_ARCH:=arm7
 endif
 ifeq ($(ARCH),aarch64)
-	BIN_ARCH:=aarch64
+	BIN_ARCH:=arm64
 endif
 ifeq ($(ARCH),mips)
 	BIN_ARCH:=mips_sf
