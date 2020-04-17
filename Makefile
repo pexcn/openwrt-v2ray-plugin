@@ -44,7 +44,7 @@ endef
 
 define Package/v2ray-plugin/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) bin/$(ARCH)/v2ray-plugin_linux_$(BIN_ARCH) $(1)/usr/bin
+	$(INSTALL_BIN) bin/$(ARCH)/v2ray-plugin_linux_$(BIN_ARCH) $(1)/usr/bin/v2ray-plugin
 endef
 
 $(eval $(call BuildPackage,v2ray-plugin))
