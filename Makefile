@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2ray-plugin
-PKG_VERSION:=1.3.1
+PKG_VERSION:=4.43.0
 PKG_RELEASE:=1
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
@@ -13,7 +13,7 @@ define Package/v2ray-plugin
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=A SIP003 plugin based on v2ray
-	URL:=https://github.com/shadowsocks/v2ray-plugin
+	URL:=https://github.com/teddysun/v2ray-plugin
 endef
 
 define Package/v2ray-plugin/description
